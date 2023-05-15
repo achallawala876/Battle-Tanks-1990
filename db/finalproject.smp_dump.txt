@@ -1,0 +1,159 @@
+
+State Machine - |finalproject|key_counter2:TANK2BULLETS|state
+Name state.COUNT_THREE state.WAIT9 state.WAIT8 state.WAIT7 state.IDLE3 state.COUNT_TWO state.WAIT6 state.WAIT5 state.WAIT4 state.IDLE2 state.IDLE1 state.WAIT3 state.WAIT2 state.WAIT1 state.COUNT_ONE 
+state.COUNT_ONE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.WAIT1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.WAIT2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.WAIT3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.IDLE1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.IDLE2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.WAIT4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.WAIT5 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.WAIT6 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.COUNT_TWO 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.IDLE3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WAIT7 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.WAIT8 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.WAIT9 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.COUNT_THREE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |finalproject|key_counter:TANK1BULLETS|state
+Name state.COUNT_THREE state.WAIT9 state.WAIT8 state.WAIT7 state.IDLE3 state.COUNT_TWO state.WAIT6 state.WAIT5 state.WAIT4 state.IDLE2 state.IDLE1 state.WAIT3 state.WAIT2 state.WAIT1 state.COUNT_ONE 
+state.COUNT_ONE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.WAIT1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.WAIT2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.WAIT3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.IDLE1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.IDLE2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.WAIT4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.WAIT5 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.WAIT6 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.COUNT_TWO 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.IDLE3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WAIT7 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.WAIT8 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.WAIT9 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.COUNT_THREE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |finalproject|tank2_animator:t2a|state
+Name state.animation2 
+state.animation1 0 
+state.animation2 1 
+
+State Machine - |finalproject|tank1_animator:t1a|state
+Name state.animation2 
+state.animation1 0 
+state.animation2 1 
+
+State Machine - |finalproject|game_states:FSM|state
+Name state.death_screen_P2 state.death_screen_P1 state.explode6 state.explode5 state.explode4 state.explode3 state.explode2 state.explode1 state.game_state state.halted 
+state.halted 0 0 0 0 0 0 0 0 0 0 
+state.game_state 0 0 0 0 0 0 0 0 1 1 
+state.explode1 0 0 0 0 0 0 0 1 0 1 
+state.explode2 0 0 0 0 0 0 1 0 0 1 
+state.explode3 0 0 0 0 0 1 0 0 0 1 
+state.explode4 0 0 0 0 1 0 0 0 0 1 
+state.explode5 0 0 0 1 0 0 0 0 0 1 
+state.explode6 0 0 1 0 0 0 0 0 0 1 
+state.death_screen_P1 0 1 0 0 0 0 0 0 0 1 
+state.death_screen_P2 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |finalproject|tank2:tank2_lab|bullet3_direction
+Name bullet3_direction.11 bullet3_direction.10 bullet3_direction.01 bullet3_direction.00 
+bullet3_direction.00 0 0 0 0 
+bullet3_direction.01 0 0 1 1 
+bullet3_direction.10 0 1 0 1 
+bullet3_direction.11 1 0 0 1 
+
+State Machine - |finalproject|tank2:tank2_lab|bullet2_direction
+Name bullet2_direction.11 bullet2_direction.10 bullet2_direction.01 bullet2_direction.00 
+bullet2_direction.00 0 0 0 0 
+bullet2_direction.01 0 0 1 1 
+bullet2_direction.10 0 1 0 1 
+bullet2_direction.11 1 0 0 1 
+
+State Machine - |finalproject|tank2:tank2_lab|bullet_direction
+Name bullet_direction.11 bullet_direction.10 bullet_direction.01 bullet_direction.00 
+bullet_direction.00 0 0 0 0 
+bullet_direction.01 0 0 1 1 
+bullet_direction.10 0 1 0 1 
+bullet_direction.11 1 0 0 1 
+
+State Machine - |finalproject|tank2:tank2_lab|direction
+Name direction.11 direction.10 direction.01 direction.00 
+direction.00 0 0 0 0 
+direction.01 0 0 1 1 
+direction.10 0 1 0 1 
+direction.11 1 0 0 1 
+
+State Machine - |finalproject|tank:tank_lab|bullet3_direction
+Name bullet3_direction.11 bullet3_direction.10 bullet3_direction.01 bullet3_direction.00 
+bullet3_direction.00 0 0 0 0 
+bullet3_direction.01 0 0 1 1 
+bullet3_direction.10 0 1 0 1 
+bullet3_direction.11 1 0 0 1 
+
+State Machine - |finalproject|tank:tank_lab|bullet2_direction
+Name bullet2_direction.11 bullet2_direction.10 bullet2_direction.01 bullet2_direction.00 
+bullet2_direction.00 0 0 0 0 
+bullet2_direction.01 0 0 1 1 
+bullet2_direction.10 0 1 0 1 
+bullet2_direction.11 1 0 0 1 
+
+State Machine - |finalproject|tank:tank_lab|bullet_direction
+Name bullet_direction.11 bullet_direction.10 bullet_direction.01 bullet_direction.00 
+bullet_direction.00 0 0 0 0 
+bullet_direction.01 0 0 1 1 
+bullet_direction.10 0 1 0 1 
+bullet_direction.11 1 0 0 1 
+
+State Machine - |finalproject|tank:tank_lab|direction
+Name direction.11 direction.10 direction.01 direction.00 
+direction.00 0 0 0 0 
+direction.01 0 0 1 1 
+direction.10 0 1 0 1 
+direction.11 1 0 0 1 
+
+State Machine - |finalproject|lab62_soc:u0|lab62_soc_sdram:sdram|m_next
+Name m_next.010000000 m_next.000010000 m_next.000001000 m_next.000000001 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 
+
+State Machine - |finalproject|lab62_soc:u0|lab62_soc_sdram:sdram|m_state
+Name m_state.100000000 m_state.010000000 m_state.001000000 m_state.000100000 m_state.000010000 m_state.000001000 m_state.000000100 m_state.000000010 m_state.000000001 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |finalproject|lab62_soc:u0|lab62_soc_sdram:sdram|i_next
+Name i_next.111 i_next.101 i_next.010 i_next.000 
+i_next.000 0 0 0 0 
+i_next.010 0 0 1 1 
+i_next.101 0 1 0 1 
+i_next.111 1 0 0 1 
+
+State Machine - |finalproject|lab62_soc:u0|lab62_soc_sdram:sdram|i_state
+Name i_state.111 i_state.101 i_state.011 i_state.010 i_state.001 i_state.000 
+i_state.000 0 0 0 0 0 0 
+i_state.001 0 0 0 0 1 1 
+i_state.010 0 0 0 1 0 1 
+i_state.011 0 0 1 0 0 1 
+i_state.101 0 1 0 0 0 1 
+i_state.111 1 0 0 0 0 1 
+
+State Machine - |finalproject|lab62_soc:u0|lab62_soc_nios2_gen2_0:nios2_gen2_0|lab62_soc_nios2_gen2_0_cpu:cpu|lab62_soc_nios2_gen2_0_cpu_nios2_oci:the_lab62_soc_nios2_gen2_0_cpu_nios2_oci|lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper:the_lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper|lab62_soc_nios2_gen2_0_cpu_debug_slave_tck:the_lab62_soc_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
