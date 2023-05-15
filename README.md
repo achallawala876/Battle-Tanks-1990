@@ -4,7 +4,7 @@ This project uses SystemVerilog and C to create a simplified version of a 2D tan
 
 The key components of the design are the System Bus, SDRAM, Video Display, and Keyboard, which have been implemented using hardware. The acquisition of inputs from the keyboard has been implemented using the NIOS II CPU software and is coded in C. The rendering of background and player graphics, processing multiple key inputs from the keyboard, tank parameters, and other high-performance features such as collision detection and shield detection have been implemented in the hardware directly using SystemVerilog. A custom IP core was created for the randomization of the screen location on which the shield power-up is generated, but this feature was rendered redundant by the creation of a linear shift feedback register (LFSR). Multiple finite state machines were implemented in hardware for handling game states and adding aesthetci animations such as moving tank treads and explosions. The design relies heavily on a variety of clocks and positive edge detectors for seamless gameplay.
 
-## Folder & file Descriptions:
+## Folder & file descriptions:
 
 The top-level module for this project is finalproject.sv 
 The .sv files are where the hardware modules for most game features have been implemented.
